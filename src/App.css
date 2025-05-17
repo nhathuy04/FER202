@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.person {
+  border: 2px solid #01060c;
+  padding: 16px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.people-table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
