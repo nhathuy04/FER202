@@ -1,0 +1,20 @@
+.header {
+    background-color: #e27d1f;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #f4c777;
+    font-size: 14px;
+    font-weight: 500;
+  }
