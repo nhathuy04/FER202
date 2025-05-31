@@ -15,39 +15,39 @@ const Carousel = () => {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active" style={{ height: "500px" }}>
-              <img src="./images/pizza-baner2.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item active" >
+              <img src="./images/pizza1.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h2>Margherita Pizza</h2>
+                <p className="fs-5">A classic Italian pizza with fresh tomato, mozzarella, and basil, delivering a simple yet vibrant taste!</p>
               </div>
             </div>
-            <div className="carousel-item" style={{ height: "500px" }}>
-              <img src="./images/pizza8.avif" className="d-block w-100" alt="..." />
+            <div className="carousel-item" >
+              <img src="./images/pizza2.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h2>Mushroom Pizza</h2>
+                <p className="fs-4">Rich and earthy flavors with a blend of mushrooms, mozzarella, and a creamy garlic sauce on a crispy crust.</p>
               </div>
             </div>
-            <div className="carousel-item" style={{ height: "500px" }}>
-              <img src="./images/pizza-baner3.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item" >
+              <img src="./images/pizza3.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h2>Hawaiian Pizza</h2>
+                <p className="fs-5">A sweet and savory delight with ham, pineapple, and mozzarella, perfect for a tropical twist</p>
               </div>
             </div>
-            <div className="carousel-item" style={{ height: "500px" }}>
-              <img src="/images/pizza-baner1.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item" >
+              <img src="/images/pizza4.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Four slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h2>Pesto Pizza</h2>
+                <p className="fs-5">Fresh pesto sauce, mozzarella, cherry tomatoes, and arugula, offering a bold and herbaceous flavor.</p>
               </div>
             </div>
-            <div className="carousel-item" style={{ height: "500px" }}>
-              <img src="/images/pizza-baner1.jpg" className="d-block w-100" alt="..." />
+            <div className="carousel-item" >
+              <img src="/images/pizza5.jpg" className="d-block w-100" alt="..." />
               <div className="carousel-caption d-none d-md-block">
-                <h5>Five slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h2>Manato Pizza</h2>
+                <p className="fs-5">A unique blend of spicy pepperoni, roasted peppers, and ricotta, topped with a tangy tomato sauce</p>
               </div>
             </div>
           </div>
