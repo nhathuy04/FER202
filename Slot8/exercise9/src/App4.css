@@ -1,0 +1,28 @@
+.header {
+    background-color: #ed9c33;
+    text-align: center;
+  }
+  
+  .logo {
+    max-width: 600px;
+  width: 100%;
+  height: auto;
+  }
+  
+  .section {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #f4c777;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .custom-card {
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
