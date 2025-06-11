@@ -1,0 +1,43 @@
+.example2-container {
+    background-color: #2c2f33;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+  }
+  
+  .example2-field {
+    margin-bottom: 20px; /* Uniform spacing between fields */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Small gap between input and display text */
+  }
+  
+  .example2-input {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid #5865f2; /* Matching the blue border from the image */
+    border-radius: 5px;
+    background-color: #36393f;
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .example2-input::placeholder {
+    color: #b9bbbe;
+  }
+  
+  .example2-display {
+    font-size: 16px;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #36393f;
+    border-radius: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }

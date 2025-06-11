@@ -1,0 +1,36 @@
+.productselector-container {
+    background-color: #2c2f33;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .productselector-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .productselector-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .productselector-radio {
+    margin-right: 10px;
+    cursor: pointer;
+    accent-color: #7289da;
+  }
+  
+  .productselector-label {
+    font-size: 16px;
+  }
+  
+  .productselector-selected {
+    font-size: 16px;
+    margin-top: 15px;
+  }
