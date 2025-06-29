@@ -1,0 +1,102 @@
+.quiz-container-wrapper {
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.quiz-title {
+  font-size: 2rem;
+  color: red;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.quiz-card {
+  padding: 2rem;
+  border-radius: 30px;
+  min-height: 35rem;
+  width: 100%;
+  background: #f8f9fa;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.1);
+}
+
+.question-header {
+  margin-bottom: 1rem;
+}
+
+.question-count {
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.question-text {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* ==== Answer Block (gộp cả danh sách) ==== */
+.answer-list {
+  margin-bottom: 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+/* ==== Answer Item ==== */
+.answer-list .answer-item {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  border-radius: 20px !important;
+  border: 1px solid #ddd !important;
+  background-color: white;
+  padding: 12px 20px;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.answer-list .answer-item:hover {
+  background-color: #f0f0f0;
+}
+
+.answer-list .answer-item.selected {
+  background-color: #d4edda !important;
+  border: 1px solid #fc466b !important;
+  color: black;
+  font-weight: 500;
+}
+
+
+/* ==== Button ==== */
+.next-button {
+  font-size: 1.2rem;
+  padding: 0.5rem 2rem;
+  background-color: rgb(40, 117, 212);
+  border: none;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.next-button.disabled {
+  background-color: #e9ecef !important;
+  color: #ccc !important;
+  cursor: not-allowed !important;
+}
+
+/* ==== Result ==== */
+.result-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.result-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.result-value {
+  font-weight: bold;
+  color: #000;
+}
