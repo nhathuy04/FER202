@@ -1,0 +1,59 @@
+.add-question-card {
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #f7f9fc 0%, #e3e7f1 100%);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .add-question-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .add-question-card h3 {
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    color: #007bff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .add-question-card .form-control {
+    border: 2px solid #007bff;
+    background-color: #fff;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px 15px;
+    height: 50px;
+  }
+  
+  .add-question-card .form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 88, 179, 0.5);
+    outline: none;
+  }
+  
+  .add-question-card .btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .add-question-card .btn:hover {
+    transform: translateY(-2px);
+    background-color: #0056b3;
+  }
+  
+  .add-question-card .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .add-question-card .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .add-question-card .alert {
+    border-radius: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }

@@ -1,0 +1,109 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Khóa học ReactJS",
+      "description": "Học ReactJS từ cơ bản đến nâng cao",
+      "image": "react.png",
+      "quiz": [
+        { "question": "ReactJS là gì?", "options": ["Framework", "Thư viện", "Ngôn ngữ lập trình", "Cơ sở dữ liệu"], "correctAnswer": "Thư viện" },
+        { "question": "JSX là gì trong React?", "options": ["Một kiểu dữ liệu", "Công cụ build", "Cú pháp mở rộng của JavaScript", "Hook"], "correctAnswer": "Cú pháp mở rộng của JavaScript" },
+        { "question": "Hook nào dùng để quản lý state?", "options": ["useState", "useEffect", "useRef", "useMemo"], "correctAnswer": "useState" },
+        { "question": "Lifecycle method nào được thay thế bởi useEffect?", "options": ["componentDidMount", "componentWillUnmount", "componentDidUpdate", "Tất cả đều đúng"], "correctAnswer": "Tất cả đều đúng" },
+        { "question": "React component là gì?", "options": ["Một class hoặc function", "Một biến toàn cục", "Một module C++", "Một thư viện"], "correctAnswer": "Một class hoặc function" },
+        { "question": "State khác props ở điểm nào?", "options": ["State có thể thay đổi", "Props có thể thay đổi", "State dùng để truyền data", "Không khác gì cả"], "correctAnswer": "State có thể thay đổi" },
+        { "question": "Sự khác biệt giữa useEffect và useLayoutEffect?", "options": ["Thời điểm thực thi khác nhau", "Không có khác biệt", "Dùng cho class component", "useLayoutEffect nhanh hơn"], "correctAnswer": "Thời điểm thực thi khác nhau" },
+        { "question": "Cách truyền props là gì?", "options": ["<Component propName=\"value\" />", "Component.propName = value", "props.send(value)", "dùng Redux"], "correctAnswer": "<Component propName=\"value\" />" },
+        { "question": "Tại sao nên dùng key khi render list?", "options": ["Tăng hiệu năng và tránh lỗi", "Không cần thiết", "Dùng để truyền dữ liệu", "Để tạo layout"], "correctAnswer": "Tăng hiệu năng và tránh lỗi" },
+        { "question": "Cách tạo component function?", "options": ["function Comp() { return <div></div> }", "Comp() => <div></div>", "new Component()", "class extends Component"], "correctAnswer": "function Comp() { return <div></div> }" }
+      ],
+      "instructor": "Lê Đặng Nhật Huy",
+      "instructorImage": "anh2.jpg",
+      "content": ["Giới thiệu về ReactJS", "Cơ bản về JSX và Components", "Quản lý State với Hooks", "Xây dựng ứng dụng thực tế"]
+    },
+    {
+      "id": "2",
+      "name": "Khóa học Redux",
+      "description": "Quản lý state với Redux Toolkit",
+      "image": "redux.png",
+      "quiz": [
+        { "question": "Redux Toolkit dùng để làm gì?", "options": ["Quản lý giao diện", "Quản lý state", "Tạo API", "Xử lý hình ảnh"], "correctAnswer": "Quản lý state" },
+        { "question": "Store trong Redux là gì?", "options": ["Nơi chứa toàn bộ state", "Component chính", "Function chính", "Thư viện UI"], "correctAnswer": "Nơi chứa toàn bộ state" },
+        { "question": "Reducer là gì?", "options": ["Hàm xử lý state", "Component React", "Hook đặc biệt", "Middleware"], "correctAnswer": "Hàm xử lý state" },
+        { "question": "Dispatch dùng để làm gì?", "options": ["Gửi action tới reducer", "Tạo UI", "Đăng nhập", "Xử lý ảnh"], "correctAnswer": "Gửi action tới reducer" },
+        { "question": "Selector trong Redux là gì?", "options": ["Hàm lấy dữ liệu từ state", "Tạo giao diện", "Tạo API", "Component đặc biệt"], "correctAnswer": "Hàm lấy dữ liệu từ state" },
+        { "question": "Tại sao dùng Redux Toolkit?", "options": ["Đơn giản hóa Redux", "Không cần redux", "Viết bằng TypeScript", "Nó thay thế React"], "correctAnswer": "Đơn giản hóa Redux" },
+        { "question": "Middleware phổ biến nhất là gì?", "options": ["Redux Thunk", "Express", "JWT", "ReactDOM"], "correctAnswer": "Redux Thunk" },
+        { "question": "Action là gì trong Redux?", "options": ["Đối tượng mô tả thay đổi", "Một component", "Một hook", "Một selector"], "correctAnswer": "Đối tượng mô tả thay đổi" },
+        { "question": "Slice trong Redux Toolkit là gì?", "options": ["Module chứa state, reducer, action", "Component layout", "File hình ảnh", "Hook mới"], "correctAnswer": "Module chứa state, reducer, action" },
+        { "question": "Immer dùng để làm gì?", "options": ["Viết reducer bất biến dễ hơn", "Tăng tốc UI", "Gửi API", "Thêm animation"], "correctAnswer": "Viết reducer bất biến dễ hơn" }
+      ],
+      "instructor": "Lê Đặng Nhật Huy",
+      "instructorImage": "anh2.jpg",
+      "content": ["Giới thiệu về Redux", "Cấu trúc Store và Reducer", "Sử dụng Redux Toolkit", "Kết hợp với React"]
+    },
+    {
+      "id": "5",
+      "name": "Khóa học Python cơ bản",
+      "description": "Lập trình Python từ căn bản đến nâng cao",
+      "image": "python.png",
+      "quiz": [
+        { "question": "Python là ngôn ngữ gì?", "options": ["Lập trình hướng đối tượng", "Markup", "Cơ sở dữ liệu", "Trình soạn thảo"], "correctAnswer": "Lập trình hướng đối tượng" },
+        { "question": "Câu lệnh in ra màn hình trong Python là?", "options": ["echo", "System.out.println", "console.log", "print"], "correctAnswer": "print" },
+        { "question": "Cách khai báo biến đúng trong Python?", "options": ["int x = 5", "x = 5", "declare x = 5", "let x = 5"], "correctAnswer": "x = 5" },
+        { "question": "Kiểu dữ liệu không có trong Python?", "options": ["list", "tuple", "char", "dict"], "correctAnswer": "char" },
+        { "question": "Hàm `len()` dùng để làm gì?", "options": ["Tính tổng", "Đếm độ dài", "Sắp xếp", "Lặp lại"], "correctAnswer": "Đếm độ dài" },
+        { "question": "Câu lệnh nào để lặp trong Python?", "options": ["for", "while", "do while", "Cả A và B"], "correctAnswer": "Cả A và B" },
+        { "question": "Từ khóa khai báo hàm?", "options": ["function", "fun", "def", "method"], "correctAnswer": "def" },
+        { "question": "Python hỗ trợ quản lý package thông qua?", "options": ["npm", "pip", "composer", "gem"], "correctAnswer": "pip" },
+        { "question": "Cấu trúc dữ liệu `set` dùng để?", "options": ["Lưu dữ liệu duy nhất", "Lưu theo thứ tự", "Lưu key-value", "Không dùng được"], "correctAnswer": "Lưu dữ liệu duy nhất" },
+        { "question": "Python do ai phát triển?", "options": ["Dennis Ritchie", "Guido van Rossum", "Bjarne Stroustrup", "James Gosling"], "correctAnswer": "Guido van Rossum" }
+      ],
+      "instructor": "Lê Đặng Nhật Huy",
+      "instructorImage": "anh2.jpg",
+      "content": ["Giới thiệu về Python", "Cú pháp cơ bản và biến", "Cấu trúc điều khiển", "Làm việc với hàm và module"]
+    },
+    {
+      "id": "6",
+      "name": "Khóa học TypeScript",
+      "description": "Nâng cao kỹ năng JavaScript với TypeScript",
+      "image": "typescript.png",
+      "quiz": [
+        { "question": "TypeScript là gì?", "options": ["Framework", "Superset của JavaScript", "Trình biên dịch", "Hệ điều hành"], "correctAnswer": "Superset của JavaScript" },
+        { "question": "Kiểu dữ liệu `any` dùng để?", "options": ["Cấm dùng", "Chấp nhận mọi kiểu", "Chỉ số", "Chuỗi"], "correctAnswer": "Chấp nhận mọi kiểu" },
+        { "question": "Đuôi mở rộng file TypeScript là gì?", "options": [".ts", ".js", ".jsx", ".tsx"], "correctAnswer": ".ts" },
+        { "question": "Interface trong TypeScript dùng để?", "options": ["Kiểm tra dữ liệu", "Định nghĩa kiểu", "Chạy code", "Giao diện UI"], "correctAnswer": "Định nghĩa kiểu" },
+        { "question": "TypeScript cần được biên dịch sang?", "options": ["Python", "C#", "Java", "JavaScript"], "correctAnswer": "JavaScript" },
+        { "question": "Từ khóa để ép kiểu dữ liệu?", "options": ["as", "cast", "type", "typeof"], "correctAnswer": "as" },
+        { "question": "Enum trong TypeScript dùng để?", "options": ["Tạo biến toàn cục", "Định nghĩa tập hằng số", "Biến cục bộ", "Tạo class"], "correctAnswer": "Định nghĩa tập hằng số" },
+        { "question": "TypeScript do ai phát triển?", "options": ["Facebook", "Google", "Microsoft", "Mozilla"], "correctAnswer": "Microsoft" },
+        { "question": "Kiểu dữ liệu `void` trong hàm nghĩa là?", "options": ["Không trả về gì", "Trả về số", "Trả về chuỗi", "Lỗi cú pháp"], "correctAnswer": "Không trả về gì" },
+        { "question": "Từ khóa để khai báo biến trong TypeScript?", "options": ["var", "let", "const", "Tất cả đúng"], "correctAnswer": "Tất cả đúng" }
+      ],
+      "instructor": "Lê Đặng Nhật Huy",
+      "instructorImage": "anh2.jpg",
+      "content": ["Giới thiệu về TypeScript", "Khai báo kiểu dữ liệu", "Interface và Enum", "Tích hợp với JavaScript"]
+    },
+    {
+      "id": "7",
+      "name": "Khóa học C# cơ bản",
+      "description": "Lập trình ứng dụng Windows với C#",
+      "image": "csharp.png",
+      "quiz": [
+        { "question": "C# là ngôn ngữ lập trình được phát triển bởi?", "options": ["Google", "Microsoft", "Apple", "Sun"], "correctAnswer": "Microsoft" },
+        { "question": "File C# thường có đuôi là gì?", "options": [".cs", ".cpp", ".c", ".csharp"], "correctAnswer": ".cs" },
+        { "question": "Hàm chính trong chương trình C#?", "options": ["public", "main", "Main", "start"], "correctAnswer": "Main" },
+        { "question": "Kiểu dữ liệu không có trong C#?", "options": ["int", "string", "char", "text"], "correctAnswer": "text" },
+        { "question": "Từ khóa dùng để kế thừa?", "options": ["extends", "inherit", "base", ":"], "correctAnswer": ":" },
+        { "question": "`Console.WriteLine()` dùng để?", "options": ["Nhập dữ liệu", "Tính toán", "Xuất dữ liệu", "Chạy vòng lặp"], "correctAnswer": "Xuất dữ liệu" },
+        { "question": "C# là ngôn ngữ gì?", "options": ["Hướng thủ tục", "Markup", "Hướng đối tượng", "Script"], "correctAnswer": "Hướng đối tượng" },
+        { "question": "Để tạo đối tượng từ class ta dùng?", "options": ["new", "class", "create", "make"], "correctAnswer": "new" },
+        { "question": "C# dùng thư viện nào để làm ứng dụng Windows?", "options": [".NET", "JavaFX", "Swing", "Qt"], "correctAnswer": ".NET" },
+        { "question": "Từ khóa `static` dùng để?", "options": ["Khai báo biến toàn cục", "Dùng mà không cần tạo đối tượng", "Tạo class", "Giao diện"], "correctAnswer": "Dùng mà không cần tạo đối tượng" }
+      ],
+      "instructor": "Lê Đặng Nhật Huy",
+      "instructorImage": "anh2.jpg",
+      "content": ["Giới thiệu về C#", "Cú pháp cơ bản và biến", "Lập trình hướng đối tượng", "Làm việc với .NET"]
+    }
+  ]
+}
